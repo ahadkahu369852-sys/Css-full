@@ -1,0 +1,297 @@
+body{
+    background-color: rgb(221, 228, 228);
+    margin: 0px auto;
+    
+   
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    width: 100%;
+   max-width: 1200px;
+   min-width: 1200px;
+   top: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+  
+   color: rgba(244, 240, 255, 0.938);
+   left: 38%;
+   margin: 0px auto;
+ 
+  
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+.header h1{
+    padding-left: 20%;
+}
+
+.heroimg{
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+}
+.overlay{
+    /* background-color:rgba(77, 71, 71, 0.445); */
+    min-height: 35dvh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  
+  
+    border-radius: 40px;
+   
+}
+.content{
+   
+    backdrop-filter:blur(5px);
+    height: 200px;
+    width: 300px;
+   
+   
+    color: antiquewhite;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+    position: absolute;
+    
+    
+    top: 50%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+   
+}
+.save{
+    margin-top: 80px;
+}
+
+.gggg{
+    margin-left: 20px;
+}
+
+.gggg h4{
+    color: dodgerblue;
+}
+.content h1{
+   left: 10%;
+
+}
+.what h4{
+    color: dodgerblue;
+}
+.more{
+    background-color: dodgerblue;
+}
+.what{
+    height: 200px;
+    width: 300px;
+    
+    left: 20%;
+  
+    
+
+}
+.fast h4{
+    color: dodgerblue;
+}
+
+.fast{
+    height: 200px;
+    width: 300px;
+   
+    position: absolute;
+   
+   left: 60%;
+   
+}
+.bara{
+    display: flex;
+    margin-left: 20px;
+}
+
+.img-box img{
+   width:100% ;
+   
+   align-items: center;
+   margin-top: 50px;
+   backdrop-filter: blur(5px);
+  position: absolute;
+   z-index: 100;
+   
+}
+.img-box{
+    backdrop-filter: blur(5px);
+}
+.test{
+    
+   color: aliceblue;
+   margin-left: 30%;
+  position: absolute;
+   width: 400px;
+   text-align: center;
+   margin-top: 70px;
+  
+  
+  
+}
+.box{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    background-size: cover;
+    border-radius: 100%;
+    gap: 25px;
+   
+}
+.box1{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40%;
+    background-size: contain;
+
+    gap: 45px;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    gap: 5px;
+  
+}
+.daba{
+   height: 10px;
+   width: 10px;
+   background-color: blue;
+   display: flex;
+   justify-content: space-evenly;
+   border-radius: 100%;
+   
+}
+.gallery{
+    z-index: 100%;
+    top: 50%;
+    text-align: center;
+    width: 500px;
+    margin-left: 28%;
+   
+    color: black;
+margin-top: 80%;
+  
+}
+.gallery h2{
+    color: rgb(105, 153, 137);
+}
+
+.books{
+    
+  display: flex;
+  justify-content: space-evenly;
+  background-size: cover;
+ background-repeat: no-repeat;
+ margin-top: 10%;
+    
+}
+.books1{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(46, 116, 106);
+   
+}
+.books2{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(59, 143, 101);
+   
+}
+.books3{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(62, 119, 136);
+   
+}
+.books4{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(211, 165, 218);
+   
+}
+.books5{
+    width: 150px;
+    height: 200px;
+    background-color: black;
+  
+}
+.contact{
+    position: relative;
+    text-align: center;
+   
+}
+
+.contact img{
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 10%;
+
+    
+   
+   
+}
+.contact span{
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    color: antiquewhite;
+    width: 700px;
+   
+}
+.name{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    position: absolute;
+    text-align: left;
+margin-top: 4%;
+    padding-top: 10px;
+ 
+}
+.border{
+    border: 2px solid white;
+}
+.name li{
+    list-style: none;
+   
+    
+}
+.mas{
+    padding-top: 50px;
+}
+.next{
+    margin-top: 2%;
+    margin-right: 90%;
+    width: 100px;
+    background-color: dodgerblue;
+}
+.abdul ul li{
+    list-style: none;
+    padding-top: 20px;
+}
+.lorem{
+   padding-top: 10%;
+}
